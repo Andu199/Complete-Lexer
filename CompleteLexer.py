@@ -600,10 +600,3 @@ def runcompletelexer(lex_path, input_path, output_path):
     output_file = open(output_path, "w")
     output_file.write(result)
     output_file.close()
-
-def runparser(input_path, output_path):
-    in_file = open(input_path, "r")
-    in_file.close()
-
-    out_file = open(output_path, "w")
-    out_file.close()
